@@ -1,0 +1,407 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="Brayan Angarita">
+<title>Ryvens - Tu tienda online de zapatos</title>
+
+<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+<link rel="stylesheet" type="text/css" href="assets/shop/rs-plugin/css/settings.css" media="screen" />
+
+<!-- Bootstrap Core CSS -->
+<link href="assets/shop/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="assets/shop/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="assets/shop/css/ionicons.min.css" rel="stylesheet">
+<link href="assets/shop/css/main.css" rel="stylesheet">
+<link href="assets/shop/css/style.css" rel="stylesheet">
+<link href="assets/shop/css/responsive.css" rel="stylesheet">
+<link href="assets/shop/font/flaticon.css" rel="stylesheet">
+
+<!-- JavaScripts -->
+<script src="assets/shop/js/modernizr.js"></script>
+
+<!-- Online Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900|Poppins:300,400,500,600,700|Montserrat:300,400,500,600,700,800" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+<!-- Wrap -->
+<div id="wrap"> 
+
+  <div class="top-bar">
+      <div class="container-full">
+         <p><i class="icon-envelope"></i> Hola@ryvens.com </p>
+         <p class="call"> <i class="icon-call-in"></i> <a class="text-white" href="https://wa.me/573134587075?text=Hola,%20estoy%20interesado%20en%20adquirir%20un%20producto%20en%20RYVENS" target="_blank">+57 313 458 7075</a> </p>
+         
+         <!-- Login Info -->
+         <div class="login-info">
+           <ul>
+            <li><a href="#!">INGRESAR</a></li>
+            <li><a href="#!"> REGISTRARSE </a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+
+   <form id="logout-form" action="salir" method="POST" style="display: none;">
+   <input type="hidden" name="_token" value="YhC7YVBCsssVWYLE66yFah3Zb4NPWmGccTwiQTs1">   </form>
+
+  
+  <!-- header -->
+  <header class="sticky">
+    <div class="container-full"> 
+       
+      <!-- Logo -->
+      <div class="logo"> <a href="#!"><img class="img-responsive" src="assets/shop/images/logo.svg" alt="" width="130"></a> </div>
+      <nav class="navbar ownmenu navbar-expand-lg">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span></span> </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav">
+            <li class="dropdown active"> <a href="#!">Inicio</a>
+            </li>
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Productos</a>
+               <ul class="dropdown-menu">
+                <li> <a href="#!">Todos</a> </li>
+                <li> <a href="#!">Mujer</a> </li>
+                <li> <a href="#!">Hombre </a> </li>
+              </ul>
+            </li>
+            <li> <a href="#">Nosotros </a> </li>
+            <li> <a href="#"> Contacto</a> </li>
+          </ul>
+        </div>
+        
+        <!-- Nav Right -->
+        <div class="nav-right">
+          <ul class="navbar-right">
+            <!-- USER INFO -->
+                        <li> <a href="#!"><i class="lnr lnr-user"></i> </a></li>
+                        <!-- USER BASKET -->
+            <li> <a href="#!"> <i class="lnr lnr-cart"></i> <span class="c-no">0</span></a>
+            </li>
+
+
+            
+            <!-- SEARCH BAR -->
+            <li> <a href="javascript:void(0);" class="search-open"><i class="lnr lnr-magnifier"></i></a>
+              <div class="search-inside animated bounceInUp"> <i class="icon-close search-close"></i>
+                <div class="search-overlay"></div>
+                <div class="position-center-center">
+                  <div class="search">
+                    <form action="buscar" method="GET">
+                      
+                      <input type="search" name="query" value="" placeholder="Buscar en toda la tienda">
+                      <button type="submit"><i class="icon-"></i></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+   <div class="clearfix"></div>
+  </header>
+  
+  <!-- Main Layout -->
+  <main class="cd-main-content"> 
+
+   
+      <!-- HOME MAIN  -->
+   <section class="simple-head" data-stellar-background-ratio="0.5">
+      <div class="position-center-center"> 
+         <!-- Container Fluid -->
+         <div class="container-full"> 
+            <!-- Header Text -->
+            <div class="text-left col-lg-8 no-padding"> 
+               <h4>Productos desde</h4>
+               <span class="price"><small>$</small>179,999</span>
+               <h1 class="extra-huge-text space">Increíbles <br> precios</h1>
+               <div class="text-btn"> <a href="#." class="btn btn-inverse margin-top-40">Comprar ahora</a> </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Content -->
+   <div id="content"> 
+      <!-- Shipment -->
+      <section class="shipment">
+         <div class="container">
+            <ul>
+               <li><i class="flaticon-shipped"></i>
+                  <h4>Envíos gratis desde $220,000</h4>
+               </li>
+               <li><i class="flaticon-support-1"></i>
+                  <h4>Asistencia en la compra</h4>
+               </li>
+               <li><i class="flaticon-credit-card"></i>
+                  <h4>Pagos 100% seguros </h4>
+               </li>
+               <li><i class="flaticon-box"></i>
+                  <h4>Envíos a nivel nacional</h4>
+               </li>
+            </ul>
+         </div>
+      </section>
+      
+      <!-- New Arrival -->
+      <section>
+         <div class="container-full"> 
+            <!-- Main Heading -->
+            <div class="heading text-center">
+               <h4>Productos más vendidos</h4>
+               <span>No dejes que se agoten, ¡estrena ahora porque siempre tenemos ofertas! </span> </div>
+
+               <!-- New Arrival -->
+               <div class="arrival-block">
+
+               <!-- Tab Content -->
+               <div class="tab-content" id="arrival-tab"> 
+
+               <!-- Best Selling  -->
+               <div class="tab-pane fade show active" id="bst-sell" role="tabpanel"> 
+                                    <!-- Item -->
+                  <div class="item"> 
+                     <!-- Sale -->
+                     <div class="on-sale"> Sale </div>
+                     <div class="img-ser"> <img class="img-1 lazyload" src="assets/shop/images/woman1.jpeg" alt=""> <img class="img-2 lazyload" src="assets/shop/images/woman1.jpeg" alt=""> 
+                     <!-- Overlay  -->
+                     <div class="overlay">
+                        <div class="position-center-center"> 
+                           <a href="#!"><i class="icon-eye"></i></a> </div>
+                           <form action="#!" method="POST">
+                              <input type="hidden" name="_token" value="YhC7YVBCsssVWYLE66yFah3Zb4NPWmGccTwiQTs1">                              <div class="add-crt">
+                                 <button class="btn-cart-black arrival-block overlay a" type="submit" href="#!" role="button"><i class="icon-basket margin-right-10"></i> Agregar</button>
+                                 <a href="#!">
+                                 </a>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+
+                     <!-- Item Name -->
+                     <div class="item-name"> <a href="#." class="i-tittle" id="theInput">Adidas 4</a> <span class="price"><small>$</small><span class="line-through">139900</span> <small>$</small>139900</span> <a class="deta animated fadeInRight" href="">Ver detalles</a> </div>
+                  </div>
+                                    <!-- Item -->
+
+                                    <!-- Item -->
+                  <div class="item"> 
+                     <!-- Sale -->
+                     <div class="on-sale"> Sale </div>
+                     <div class="img-ser"> <img class="img-1 lazyload" src="assets/shop/images/woman2.jpeg" alt=""> <img class="img-2 lazyload" src="assets/shop/images/woman2.jpeg" alt=""> 
+                     <!-- Overlay  -->
+                     <div class="overlay">
+                        <div class="position-center-center"> 
+                           <a href="#!"><i class="icon-eye"></i></a> </div>
+                           <form action="#!" method="POST">
+                              <input type="hidden" name="_token" value="YhC7YVBCsssVWYLE66yFah3Zb4NPWmGccTwiQTs1">                              <div class="add-crt">
+                                 <button class="btn-cart-black arrival-block overlay a" type="submit" href="#!" role="button"><i class="icon-basket margin-right-10"></i> Agregar</button>
+                                 <a href="#!">
+                                 </a>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+
+                     <!-- Item Name -->
+                     <div class="item-name"> <a href="#." class="i-tittle" id="theInput">Adidas 4</a> <span class="price"><small>$</small><span class="line-through">139900</span> <small>$</small>139900</span> <a class="deta animated fadeInRight" href="">Ver detalles</a> </div>
+                  </div>
+                                    <!-- Item -->
+
+                                    <!-- Item -->
+                  <div class="item"> 
+                     <!-- Sale -->
+                     <div class="on-sale"> Sale </div>
+                     <div class="img-ser"> <img class="img-1 lazyload" src="assets/shop/images/woman4.jpeg" alt=""> <img class="img-2 lazyload" src="assets/shop/images/woman4.jpeg" alt=""> 
+                     <!-- Overlay  -->
+                     <div class="overlay">
+                        <div class="position-center-center"> 
+                           <a href="#!"><i class="icon-eye"></i></a> </div>
+                           <form action="#!" method="POST">
+                              <input type="hidden" name="_token" value="YhC7YVBCsssVWYLE66yFah3Zb4NPWmGccTwiQTs1">                              <div class="add-crt">
+                                 <button class="btn-cart-black arrival-block overlay a" type="submit" href="#!" role="button"><i class="icon-basket margin-right-10"></i> Agregar</button>
+                                 <a href="#!">
+                                 </a>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+
+                     <!-- Item Name -->
+                     <div class="item-name"> <a href="#." class="i-tittle" id="theInput">Adidas 4</a> <span class="price"><small>$</small><span class="line-through">139900</span> <small>$</small>139900</span> <a class="deta animated fadeInRight" href="">Ver detalles</a> </div>
+                  </div>
+                                    <!-- Item -->
+
+                                    <!-- Item -->
+                  <div class="item"> 
+                     <!-- Sale -->
+                     <div class="on-sale"> Sale </div>
+                     <div class="img-ser"> <img class="img-1 lazyload" src="assets/shop/images/woman5.jpeg" alt=""> <img class="img-2 lazyload" src="assets/shop/images/woman5.jpeg" alt=""> 
+                     <!-- Overlay  -->
+                     <div class="overlay">
+                        <div class="position-center-center"> 
+                           <a href="#!"><i class="icon-eye"></i></a> </div>
+                           <form action="#!" method="POST">
+                              <input type="hidden" name="_token" value="YhC7YVBCsssVWYLE66yFah3Zb4NPWmGccTwiQTs1">                              <div class="add-crt">
+                                 <button class="btn-cart-black arrival-block overlay a" type="submit" href="#!" role="button"><i class="icon-basket margin-right-10"></i> Agregar</button>
+                                 <a href="#!">
+                                 </a>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+
+                     <!-- Item Name -->
+                     <div class="item-name"> <a href="#." class="i-tittle" id="theInput">Adidas 4</a> <span class="price"><small>$</small><span class="line-through">139900</span> <small>$</small>139900</span> <a class="deta animated fadeInRight" href="">Ver detalles</a> </div>
+                  </div>
+                                    <!-- Item -->
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Testimonial -->
+      <section class="testimonial padding-top-60 padding-bottom-80">
+         <div class="container-full"> <i class="fa fa-quote-left"></i> 
+
+            <!-- Slide -->
+            <div class="single-slide"> 
+               <!-- Slide -->
+               <div class="testi-in">
+                  <p>Siempre hacemos que nuestros clientes queden felices y respetamos sus compras. Entregamos lo más pronto posible y si el producto no está disponible, lo contactamos</p>
+                  <h5>Equipo de Ryvens</h5>
+                  <span>Tienda oficial</span>
+               </div>
+
+               <!-- Slide -->
+               <div class="testi-in">
+                  <p>La atención fue muy buena y rápida. Respondieron mis preguntas rápidamente y pude hacer mi compra sin problemas</p>
+                  <h5>Pablo Díaz</h5>
+                  <span>Cliente frecuente</span>
+               </div>
+
+               <!-- Slide -->
+               <div class="testi-in">
+                  <p>Me encanta esta tienda, los productos son muy buenos y los precios muy asequibles. Amo sus descuentos y su atención </p>
+                  <h5>Andrea Hurtado</h5>
+                  <span>Cliente frecuente</span>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Clients -->
+      <section class="clients light-gray-bg padding-top-60 padding-bottom-80">
+         <div class="container-full">
+            <div class="clients-slide">
+               <div> <img src="assets/shop/images/brands/nike.svg" alt="" > </div>
+               <div> <img src="assets/shop/images/brands/diesel.svg" alt="" > </div>
+               <div> <img src="assets/shop/images/brands/adidas.svg" alt="" > </div>
+               <div> <img src="assets/shop/images/brands/prada.svg" alt="" > </div>
+               <div> <img src="assets/shop/images/brands/puma.svg" alt="" > </div>
+               <div> <img src="assets/shop/images/brands/reebok.svg" alt="" > </div>
+               <div> <img src="assets/shop/images/brands/reebok.svg" alt="" > </div>
+               <div> <img src="assets/shop/images/brands/reebok.svg" alt="" > </div>
+               
+            </div>
+         </div>
+      </section>
+   </div>
+   
+</div>
+
+    
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row"> 
+          <!-- ABOUT Location -->
+          <div class="col-md-4">
+            <div class="about-footer"> <img class="margin-bottom-30" src="assets/shop/images/logo-foot.png" alt="" >
+              <p><i class="icon-pointer"></i> Tienda virtual <br>
+                Medellín - Cúcuta (CO)</p>
+              <p><i class="icon-call-end"></i> Whatsapp <br>
+               <a class="text-white" href="https://wa.me/573134587075?text=Hola,%20estoy%20interesado%20en%20adquirir%20un%20producto%20en%20RYVENS" target="_blank"> +57 313 458 7075</a></p>
+              <p><i class="icon-envelope"></i> <a class="text-white" href="mailto:hola@ryvens.com">hola@ryvens.com</a> <br>
+                <a class="text-white" href="mailto:info@ryvens.co">info@ryvens.co </a></p>
+            </div>
+          </div>
+          
+          <!-- HELPFUL LINKS -->
+          <div class="col-md-5">
+            <!-- <h6>Políticas e información de envíos</h6>
+            <ul class="link two-half">
+              <li><a href="#."> Privacidad</a></li>
+              <li><a href="#."> Tratamiento de datos</a></li>
+              <li><a href="#."> Cambios y garantías</a></li>
+              <li><a href="#."> Preguntas frecuentes</a></li>
+            </ul> -->
+          </div>
+          
+          <!-- HELPFUL LINKS -->
+          <div class="col-md-3">
+            <h6>Políticas e información de envíos</h6>
+            <ul class="link">
+              <li><a href="#."> Privacidad</a></li>
+              <li><a href="#."> Tratamiento de datos</a></li>
+              <li><a href="#."> Cambios y garantías</a></li>
+              <li><a href="#."> Preguntas frecuentes</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Rights -->
+      <div class="rights">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p>© 2019 - Todos los derechos reservados. Ryvens - <a href="https://cafeycodigo.com/" target="_blank"> CAFÉ Y CÓDIGO</a></p>
+            </div>
+            <div class="footer__logos col-md-6 justify-content-center flex-wrap mt-2">
+               <img src="https://stirpe.co/img/metodospago/logo_american_express.png" alt="" class="img-responsive">
+              <img src="https://stirpe.co/img/metodospago/logo_pse.png" alt="" class="img-responsive">
+              <img src="https://stirpe.co/img/metodospago/logo_baloto.png" alt="" class="img-responsive">
+              <img src="https://stirpe.co/img/metodospago/logo_efecty.png" alt="" class="img-responsive">
+              <img src="https://stirpe.co/img/metodospago/logo_payu.png" alt="" class="img-responsive">
+              <img src="https://stirpe.co/img/metodospago/logo_visa.png" alt="" class="img-responsive">
+              <img src="https://stirpe.co/img/metodospago/logo_mastercard.png" alt="" class="img-responsive">
+              
+          </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <!-- GO TO TOP  --> 
+  <a href="#" class="cd-top"><i class="fa fa-angle-up"></i></a> 
+  <!-- GO TO TOP End --> 
+</div>
+<script src="assets/shop/js/jquery-1.12.4.min.js"></script>
+<script src="assets/shop/js/popper.min.js"></script>
+<script src="assets/shop/js/bootstrap.min.js"></script>
+<script src="assets/shop/js/own-menu.js"></script>
+<script src="assets/shop/js/jquery.lighter.js"></script>
+<script src="assets/shop/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/shop/js/owl.carousel.min.js"></script>
+<script src="assets/shop/js/lazysizes.min.js"></script>
+<script src="assets/shop/js/main.js"></script>
+
+</body>
+</html>
